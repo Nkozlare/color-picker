@@ -16,7 +16,7 @@ export default function Home() {
   };
   if (isSupported()) {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="flex min-h-screen flex-col items-center p-24">
         <h1 className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-400 from-sky-500 uppercase font-thin text-4xl text-center mb-9">
           Unbelievably fancy and complex color picker app
         </h1>
